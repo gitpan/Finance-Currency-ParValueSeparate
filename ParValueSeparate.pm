@@ -1,7 +1,7 @@
 package Finance::Currency::ParValueSeparate;
 use Carp;
 use strict;
-our $VERSION = sprintf "%d.%03d", q$Revision: 1.1.1.1 $ =~ /: (\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", q$Revision: 1.2 $ =~ /: (\d+)\.(\d+)/;
 use Data::Dumper;
 
 sub new {
