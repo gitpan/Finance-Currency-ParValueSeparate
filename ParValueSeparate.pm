@@ -1,7 +1,7 @@
 package Finance::Currency::ParValueSeparate;
 use Carp;
 use strict;
-our $VERSION = sprintf "%d.%02d", q$Revision: 1.2 $ =~ /: (\d+)\.(\d+)/;
+our $VERSION = sprintf "%d.%02d", q$Revision: 1.3 $ =~ /: (\d+)\.(\d+)/;
 use Data::Dumper;
 
 sub new {
@@ -179,7 +179,7 @@ __END__
 
 =head1 NAME
 
-Currency::ParValueSeparate - give least number of every parvalue within a certain amount
+Finance::Currency::ParValueSeparate - give least number of every parvalue within a certain amount
 
 =head1 SYNOPSIS
 
